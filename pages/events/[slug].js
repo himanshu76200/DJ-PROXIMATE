@@ -1,7 +1,9 @@
+import Layout from '@/components/Layout';
+
 export default function EventPage() {
-    return (
-        <div>
-            <h1>This is single event page</h1>
-        </div>
-    )
+  return (
+    <Layout>
+      <h1>This is single event page</h1>
+    </Layout>
+  );
 }
